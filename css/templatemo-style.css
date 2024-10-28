@@ -1,18 +1,21 @@
-
+body
+{
+    background: #393a39;
+}
 
 p { line-height: 1.8; }
 
 a { 
     text-decoration: none;
 }
-a:hover { color: #009999; }
+a:hover { color: #ffffff; }
 
 .container-fluid { max-width: 1770px; }
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 
 .btn-primary {
-    background-color: #009999;
+    background-color: #ffffff;
     border: 0;
     border-radius: 5px;
     padding: 12px 50px 14px;
@@ -43,7 +46,7 @@ a:hover { color: #009999; }
 .navbar-toggler:focus { box-shadow: none; }
 
 .navbar-brand {
-    color: #3399CC;
+    color: #ffffff;
     font-size: 1.6rem;
 }
 
@@ -58,10 +61,10 @@ a:hover { color: #009999; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
-.tm-text-primary { color: #009999; }
+.tm-text-primary { color: #ffffff; }
 .tm-text-secondary { color: #CC6699; }
 
-a.tm-text-primary:hover { color: #666666; }
+a.tm-text-primary:hover { color: #ffffff; }
 .tm-bg-gray { background-color: #EEEEEE; }
 
 .tm-input-paging {
@@ -76,7 +79,7 @@ a.tm-text-primary:hover { color: #666666; }
 .nav-item:last-child { margin-right: 0; }
 
 .nav-link {
-    color: #666666;
+    color: #ffffff;
     border-bottom: 4px solid transparent;
     font-size: 1.2rem;
 }
