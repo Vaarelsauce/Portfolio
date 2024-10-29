@@ -212,6 +212,8 @@ figure.effect-ming {
 
 figure.effect-ming img {
     opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
 }
 
 figure.effect-ming figcaption::before {
@@ -224,19 +226,29 @@ figure.effect-ming figcaption::before {
     box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
     content: '';
     opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
 }
 
 figure.effect-ming h2 {
     font-size: 1.3em;
-    opacity: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 figure.effect-ming:hover figcaption::before,
 figure.effect-ming:hover h2 {
-    opacity: 1;
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
 }
 
-figure.effect-ming:hover img { opacity: 0.4; }
+figure.effect-ming:hover figcaption { background-color: rgba(58,52,42,0); }
 
 .tm-footer-links li {
     list-style: none;
